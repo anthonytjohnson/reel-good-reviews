@@ -352,6 +352,13 @@ input:focus {
 
 .movie-description-button {
   margin-top: 15px;
+  background-color: #62A7B3;
+  color: #FFFFFF;
+}
+
+.movie-description-button-white {
+  margin-top: 15px;
+  background-color: #F1EB58;
 }
 
 .movie-description-category {
