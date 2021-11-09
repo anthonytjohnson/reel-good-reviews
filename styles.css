@@ -299,6 +299,8 @@ input:focus {
 
 .section-header {
   margin-bottom: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 .section-header p {
