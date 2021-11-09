@@ -50,6 +50,7 @@ h6 {
   line-height: 1.25;
   margin-bottom: 5px;
   transition: font-size 0.25s ease;
+  color: #414546
 }
 
 h1 {
@@ -298,6 +299,8 @@ input:focus {
 
 .section-header {
   margin-bottom: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 .section-header p {
@@ -323,6 +326,10 @@ input:focus {
   color: #FFFFFF;
 }
 
+.featured-section-header {
+  color: #FFFFFF;
+}
+
 .movie-description-img,
 .movie-description {
   display: inline-block;
@@ -339,16 +346,25 @@ input:focus {
 
 .movie-description-stars {
   margin: 15px 0px;
+  line-height: 16px;
+  font-size: 14px;
 }
 
 .movie-description-button {
   margin-top: 15px;
+  background-color: #62A7B3;
+  color: #FFFFFF;
+}
+
+.movie-description-button-white {
+  margin-top: 15px;
+  background-color: #F1EB58;
 }
 
 .movie-description-category {
   border-bottom: 1px solid #62A7B3;
   border-top: 1px solid #62A7B3;
-  letter-spacing: -1px;
+  letter-spacing: 1px;
   margin: 20px auto;
   padding: 10px;
   text-align: center;
@@ -361,4 +377,10 @@ input:focus {
 
 .review-header h2 {
   text-transform: uppercase;
+}
+
+.stars-label { 
+  margin-bottom: 5px; 
+  text-transform: uppercase; 
+  font-weight: bold; 
 }
